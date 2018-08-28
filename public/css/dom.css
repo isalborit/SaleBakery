@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Exo';
+	font-size: 13px;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.container-page{
+	width: 92%;
+	margin: auto;
+}
+.container-page fieldset{
+	padding: 15px 0;
+}
+.opacidad{
+	background-color: rgba(0, 0, 0, .5);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.alert-default{
+	color: #333;
+	background-color: #f5f5f5;
+	border-color: #ddd;
+}
+/* Estilos Index */
+.box-login{
+   	height: 475px;
+	width: 320px;
+   	position: absolute;
+   	left: 50%;
+   	top: 50%;
+  	margin-left: -160px;
+  	margin-top: -238px;
+  	z-index: 10;
+}
+.panel-transparent{
+	background-color: rgba(255, 255, 255, 1);
+	border: none;
+	box-shadow: 0 0 5px 2px rgba(255, 255, 255, 1);
+}
+.artechLogo{
+    background-image: url('../../public/resources/logo_blanco.jpg');
+    background-size: 210px 135px;
+    background-repeat: no-repeat;
+    height: 135px;
+    width: 74%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.title-system{
+	color: white;
+	text-shadow: 1px 1px 5px #424242;
+}
+.container-logo{
+	background: rgba(255, 252, 255, 1);
+    width: 288px;
+    height: 140px;
+    border-radius: 5px;
+}
+.form-login input{
+ color: #d23732;
+}
+/* Estilo Menu */
+ul.navbar-nav,
+ul.dropdown-menu{
+	font-size: 12.5px;
+}
+.navbar-alvasoft{
+	background-color: #222d32;
+	text-decoration: none;
+}
+.navbar-alvasoft .navbar-brand,
+.navbar-alvasoft .navbar-nav > li > a{
+	text-shadow: none;
+}
+.navbar-alvasoft .navbar-brand{
+	color: #fff;
+}
+.navbar-alvasoft .navbar-brand:hover,
+.navbar-alvasoft .navbar-brand:focus{
+	background-color: transparent;
+	color: #fff;
+}
+.navbar-alvasoft .navbar-nav > li > a{
+	color: #9d9d9d; /* color de los menus */
+}
+.navbar-alvasoft .navbar-nav > li > a:hover,
+.navbar-alvasoft .navbar-nav > li > a:focus{
+	background-color: rgba(0, 0, 0, .2);
+	color: #fff;
+}
+.navbar-alvasoft .navbar-nav > .active > a,
+.navbar-alvasoft .navbar-nav > .active > a:hover,
+.navbar-alvasoft .navbar-nav > .active > a:focus{
+	color: #fff;
+	background-color: rgba(0, 0, 0, .2);
+}
+.navbar-alvasoft .navbar-toggle{
+	border-color: #fff;
+}
+.navbar-alvasoft .navbar-toggle:hover,
+.navbar-alvasoft .navbar-toggle:focus{
+	background-color: rgba(255, 255, 255, .1);
+}
+.navbar-alvasoft .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover{
+	color: #fff;
+	background-color: transparent;
+}
+#ddb .open>a,
+#ddb .open>a:focus,
+#ddb .open>a:hover,
+#ddbs .open>a,
+#ddbs .open>a:focus,
+#ddbs .open>a:hover{
+	background-color: transparent;
+}
+
+table.dataTable tbody tr td a span#sp{
+	font-size: 11px;
+}
+
+#ddbs .dropdown-menu{
+    min-width: 100px;
+}
+
+/* Estilos Footer */
+footer{
+	padding: 10px;
+	margin-top: -20px;
+}
+footer p{
+	color: #337ab7;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+/* Estilos Tablas */
+.tablePage tr td, th{
+	padding: 5px;
+}
+.tablePage .input-group-addon{
+	width: 120px;
+}
+.table-sale tr td,
+.table-sale tr th{
+	padding-bottom: 10px;
+}
+.table-sale tr td input[type="number"]{
+	text-align: right;
+}
+.table-header tr td, th{
+	padding: 5px;
+}
+.table-form tr td, th{
+	padding: 7px 5px;
+}
+table.dataTable thead tr th,
+.dataTables_info,
+.dataTables_length,
+.dataTables_filter label,
+.pagination .paginate_button a{
+	font-size: 13px;
+}
+table.dataTable tbody tr td{
+	font-size: 12px;
+}
+table.dataTable tbody tr td span{
+	font-size: 11px;
+}
+.dataTables_filter label input[type="search"]{
+	width: 250px;
+}
+table.dataTable tbody tr td a span{
+	color: #555;
+	font-size: 16px;
+	padding: 1.5px;
+}
+
+.table-detalle-producto thead tr td{
+	padding: 0px;
+}
+.table-detalle-producto thead,
+#formRegisterEdition .table thead{
+	background-color: #d8d8d8;
+}
+#formRegisterEdition .table-bordered>tbody>tr>td,
+#formRegisterEdition .table-bordered>tbody>tr>th,
+#formRegisterEdition .table-bordered>tfoot>tr>td,
+#formRegisterEdition .table-bordered>tfoot>tr>th,
+#formRegisterEdition .table-bordered>thead>tr>td,
+#formRegisterEdition .table-bordered>thead>tr>th{
+	border: 1px solid #ddd;
+}
+.table-detalle-producto thead tr td input{
+	border: 0px;
+	border-radius: 0px;
+	padding: 4px;
+	height: 28px;
+	font-size: 12px;
+}
+.table-detalle-producto thead tr td button{
+	border: 0px;
+	border-radius: 0px;
+	padding: 4px;
+	height: 28px;
+	font-size: 12px;
+}
+.table-detalle-producto tbody tr td{
+	padding: 0px;
+	height: 28px;
+}
+.table-detalle-producto tbody tr td input{
+	border: 0px;
+	border-radius: 0px;
+	padding: 4px;
+	height: 28px;
+	font-size: 12px;
+}
+.table-detalle-producto tbody tr td button{
+	border: 0px;
+	border-radius: 0px;
+	padding: 4px;
+	height: 28px;
+	font-size: 12px;
+}
+.table-detalle-producto tfoot tr th{
+	text-align: right;
+}
+.table-detalle-producto tfoot tr td input[type="number"]{
+	width:100px;
+	padding:2px;
+	text-align:right;
+}
+
+.detalle-compra thead tr td{
+	padding: 0px;
+}
+.detalle-compra thead tr td input{
+	border: 0px;
+	border-radius: 0px;
+	padding: 4px;
+	height: 28px;
+	font-size: 12px;
+}
+.detalle-compra thead tr td button{
+	border: 0px;
+	border-radius: 0px;
+	padding: 4px;
+	height: 28px;
+	font-size: 12px;
+}
+.detalle-compra tbody tr td{
+	padding: 0px;
+	height: 28px;
+}
+.detalle-compra tbody tr td input{
+	border: 0px;
+	border-radius: 0px;
+	padding: 4px;
+	height: 28px;
+	font-size: 12px;
+	width: 100%;
+}
+.detalle-compra tbody tr td button{
+	border: 0px;
+	border-radius: 0px;
+	padding: 4px;
+	height: 28px;
+	font-size: 12px;
+}
+.detalle-compra thead tr th{
+	background-color: #d8d8d8;
+}
+
+#ddb .dropdown-menu > li > a,
+#ddbs .dropdown-menu > li > a{
+	color: #333;
+}
+
+
+/* Formulario de Registro */
+.formPage label,
+.formPage input{
+	font-size: 12px;
+}
+input[type=radio]{
+    cursor: pointer;
+}
+.modal .close span{
+	font-family: 'Tahoma';
+}
+
+/* Reloj */
+#timeView{
+	font-size:34px;
+	text-align:center;
+	margin-top: 10px;
+}
+#dateView{
+	font-size:16px;
+	text-align:center;
+	margin-bottom: 10px;
+}
+.hoverPanel a{
+	text-decoration:none;
+}
+.hoverPanel:hover{
+	cursor:pointer;
+	background:#0080FF;
+}
+
+.box-login-mister{
+	height: auto;
+	width: 380px;
+   	margin: 10%;
+  	z-index: 10;
+}
+.box-bg-mister{
+	padding: 10px 20px;
+	background-color: rgba(255, 255, 255, 1);
+}
+.img-mister{
+	width: 150px;
+	height: 110px;
+}
+.img-mister img{
+	width: 100%;
+	height: 100%;
+}
+.letter-mister{
+	text-align: center;
+	margin-top: 5px;
+}
+.letter-mister h1{
+	color: #db605c;
+}
+.btn-login{
+	padding: 6px 12px;
+	background-color: #d43f3a;
+	color: #fff;
+	outline: 0;
+	border: 1px solid #a32824;
+}
+.btn-login:hover{
+	background-color: #a32824;
+}
+.box-bg-mister .form-control,
+.box-bg-mister .input-group-addon{
+	border-radius: 0;
+	border: 1px solid #db605c;
+}
+.box-bg-mister .input-group-addon{
+	background-color: #db605c;
+	color: #fff;
+}
+.box-bg-mister input:focus{
+	border: 1px solid #db605c;
+	box-shadow: none;
+}
+.table-scroll tbody {
+	display: block;
+	max-height: 370px;
+	overflow-x: hidden;
+	overflow-y:scroll;
+}
+.table-scroll thead,
+.table-scroll tbody tr{
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+.table-scroll tbody tr td:last-child{
+	width: 80px;
+	text-align: center;
+}
+#mb-categ .row div{
+	cursor: pointer;
+}
+#mb-prod table tr td{
+	font-size: 15px;
+}
+
+#tp-venta .col-md-4 img{
+	width: 100%;
+	height: 180px;
+	padding: 5px;
+	border: 1px solid #521515;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.mister-botones{
+	display: block;
+	width: 150px;
+	padding: 15px 0;
+	text-align: center;
+}
+.mbcancel{
+	background-color: #af2424;
+	color: #fff;
+}
+.mbpay{
+	background-color: #308e31;
+	color: #fff;
+}
+.mbcustomer{
+	background-color: #1c546a;
+	color: #fff;
+}
+a[disabled]{
+	opacity: 0.7;
+}
+.mister-botones:hover,
+.mister-botones:active,
+.mister-botones:focus{
+	color: #fff;
+	text-decoration: none;
+}
+.customer-oculto{
+	display: none;
+}
+#resultProduct table tr td h5{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 969px){
+	.navbar-alvasoft .dropdown-menu > li > a{
+		color: #9d9d9d;
+	}
+}
